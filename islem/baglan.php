@@ -1,8 +1,8 @@
 <?php
-$host="localhost";
-$veritabani_isim="kursayarlar";
-$kullanici_adi="root";
-$kullanici_sifre="1515";
+$host="xxx";
+$veritabani_isim="xxxx";
+$kullanici_adi="xxxx";
+$kullanici_sifre="xxxx";
 
 try {
 	
