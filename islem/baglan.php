@@ -1,0 +1,19 @@
+<?php
+$host="localhost";
+$veritabani_isim="kursayarlar";
+$kullanici_adi="root";
+$kullanici_sifre="1515";
+
+try {
+	
+	$db = new PDO("mysql:host=$host;dbname=$veritabani_isim;charset=utf8",$kullanici_adi,$kullanici_sifre);
+} catch (Exception $e) {
+	echo $e->getmessage();
+}
+
+$sorgu=$db->prepare("SELECT * FROM ayarlar");
+$sorgu->execute();
+$ayarcek=$sorgu->fetch(PDO::FETCH_ASSOC);
+
+
+?>
