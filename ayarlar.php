@@ -12,7 +12,7 @@
 					<h5 class="font-weight-bold text-primary">Ayarlar</h5>
 				</div>
 				<div class="card-body">
-					<form action="islem/ajax.php" method="POST" accept-charset="utf-8">
+					<form action="islem/ajax.php" method="POST" accept-charset="utf-8" enctype="multipart/form-data">
 						<div class="form-row">
 							<div class="col-md-6 form-group">
 								<label>Site Logo</label>
