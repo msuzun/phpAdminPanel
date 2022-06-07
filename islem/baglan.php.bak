@@ -5,10 +5,10 @@ if (!session_start()) {
 }
 
 
-$host="xxxx";
-$veritabani_isim="xxxx";
-$kullanici_adi="xxxx";
-$kullanici_sifre="xxxx";
+$host="localhost";
+$veritabani_isim="kursayarlar";
+$kullanici_adi="root";
+$kullanici_sifre="1515";
 
 try {
 	
